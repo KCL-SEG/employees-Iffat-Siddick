@@ -9,11 +9,13 @@ class Employee:
         pass
 
     def __str__(self):
-        return self.name
+        string = f"{self.name} works on a ______. Their total pay is ____"
+        return string
 
 
 # Billie works on a monthly salary of 4000.  Their total pay is 4000.
 billie = Employee('Billie')
+print(billie.__str__())
 
 # Charlie works on a contract of 100 hours at 25/hour.  Their total pay is 2500.
 charlie = Employee('Charlie')
