@@ -6,6 +6,9 @@ class Employee:
         self.name = name
 
     def get_pay(self):
+        pay_type
+        commission_type
+        
         pass
 
     def __str__(self):
